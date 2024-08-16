@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1024">
+	<title>Pomodoro Timer</title>
+	<link rel="icon" type="image/x-icon" href="img/icon.png">
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+</head>
+
+<body>
+
+	<div class="background"></div>
+	<div class="container">
+		<div class="stats">
+			<div id="mode">STANDBY</div>
+			<div id="nr">1/4</div>
+		</div>
+		<a href="https://wikipedia.org/wiki/Pomodoro_Technique" target="_blank" title="Pomodoro Technique on Wikipedia">
+			<div id="timer">25:00 </div>
+		</a>
+		<div class="controls">
+			<div id="reset" onclick="location.reload()">RESET</div>
+			<div id="start-pause" onclick="start_pause()">START</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
